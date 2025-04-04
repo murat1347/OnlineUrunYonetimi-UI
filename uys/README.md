@@ -1,59 +1,50 @@
-# Uys
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+# Online Ürün Yönetim Sistemi - UI (Angular 19)
 
-## Development server
+Bu proje Online ürünlerin satışı ve yönetimi için hazırlanmıştır.
 
-To start a local development server, run:
+Murat Çiçek Tarafından yazılmıştır.
 
-```bash
-ng serve
+
+## Özellikler
+
+- Basit Arayüz
+- Ürünler Anasayfası
+- Ürün Detay Sayfası
+- Tüm platformlara destek
+
+
+
+  
+## Yükleme 
+
+projeyi npm kullanarak yükleyin
+
+```bash 
+  npm install
+
 ```
+    
+## Neler Geliştirilebilir?
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Giriş ve çıkış butonları eklenebilir
 
-## Code scaffolding
+- Auth Interceptor ile http isteklerinin araya giriş header kısmına jwt bearer token eklenebilir.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Sepete ekleme aktif hale getirilebilir.
 
-```bash
-ng generate component component-name
-```
+- Hakkımızda sayfası oluşturulabilir.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Header kısmına logo eklenebilir.
 
-```bash
-ng generate --help
-```
+- Jwt Token Claimlarına göre kullanıcılara ngIf kontrolüyle ürün ekleme,silme yada değiştirme butonları gösterilebilir.
 
-## Building
 
-To build the project run:
 
-```bash
-ng build
-```
+## Ekran Görüntüleri
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+![screencapture-localhost-4200-2025-04-04-14_48_41](https://github.com/user-attachments/assets/319991d6-5192-4e4c-9f15-e7bd23b1a524)
 
-## Running unit tests
+![screencapture-localhost-4200-product-446d1139-8d08-4555-5b4c-08dd734999ac-2025-04-04-14_49_04](https://github.com/user-attachments/assets/a00806b2-4888-4112-b50b-1f52eee7c892)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  
